@@ -42,19 +42,30 @@ prgc.calc_auprg(prgc.create_prg_curve(y_true,y_pred,pi0))
 *Invariance wrt to positive class ratio*
 ![](synthetic_data_invariance_prior.png)
 
+*Assessment of the model quality*
+![](synthetic_data_model_quality.png)
 
 * **Experiment with real data** : it runs an experiment equivalent to the invariance experiment on **[a real world imbalanced dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)**
 
-(insert figure here)
+*Invariance wrt to positive class ratio on real data*
+![](real_data_invariance_ratio.png)
 
 * **Comparison between proposed formula and heuristic** : This experiments shows empirically that the calibrated precision with parameter pi0 is equivalent to the precision that would be obtained if the positive class ratio pi was equal to pi0.
 
-(insert figure here)
+*Comparison between heuristic based calibration and formula based calibration*
+
+<img src="heuristic_vs_formula.png" width="350"/>
 
 * **Experiments on openml** : The experiments in this section shows how calibration and the choice of metric impacts the selection of the best model. It empirically analyzes the correlation of several metrics in terms of model ordering. We use OpenML to select the 602 supervised binary classification datasets on which at least 30 models have been evaluated with a 10-fold cross-validation. For each one, we randomly choose 30 models, fetch their predictions, and evaluate their performance with the metrics. We then compute the Spearman
 model rank correlation matrix between the metrics. We also run the same experiment on the subset of 4 most imbalanced datasets. 
 
-(insert figure here)
+*Metrics correlation matrix in terms of model ordering on 602 datasets*
+
+<img src="correlation_matrix_alldata.png" width="450"/>
+
+*Metrics correlation matrix in terms of model ordering on the 4 most unbalanced datasets*
+
+<img src="correlation_matrix_imbalanced.png" width="450" />
 
 ## Citation
 
