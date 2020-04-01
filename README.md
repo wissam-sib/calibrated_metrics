@@ -40,7 +40,7 @@ prgc.calc_auprg(prgc.create_prg_curve(y_true,y_pred,pi0))
 * **Experiments with synthetic data** : it runs the experiments with synthetic data (one experiments that shows invariance of calibrated metrics wrt the positive class ration and one experiment that show that they still assess model performance)
 
 *Invariance wrt to positive class ratio*
-![](synthetic_data_invariance_prior.png)
+![](synthetic_data_invariance_prior_new.png)
 
 *Assessment of the model quality*
 ![](synthetic_data_model_quality.png)
