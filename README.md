@@ -45,7 +45,7 @@ prgc.calc_auprg(prgc.create_prg_curve(y_true,y_pred,pi0))
 *Assessment of the model quality*
 ![](synthetic_data_model_quality.png)
 
-* **Experiment with real data** : it runs an experiment equivalent to the invariance experiment on **[a real world imbalanced dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)**
+* **Experiment with real data** : it runs an experiment equivalent to the invariance experiment on **[a real world imbalanced dataset (you need to download the dataset to run the code)](https://www.kaggle.com/mlg-ulb/creditcardfraud)**
 
 *Invariance wrt to positive class ratio on real data*
 ![](real_data_invariance_ratio.png)
