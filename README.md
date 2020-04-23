@@ -1,6 +1,6 @@
 # Calibrated Precision
 
-This repository provides python codes to reproduce the experimental results from paper **["Master your Metrics with Calibration" Wissam Siblini, Jordan Fréry, Liyun He-Guelton, Frédéric Oblé and Yi-Qing Wang (2019)](https://arxiv.org/abs/1909.02827).** 
+This repository provides python codes to reproduce the experimental results from paper **["Master your Metrics with Calibration" Wissam Siblini, Jordan Fréry, Liyun He-Guelton, Frédéric Oblé and Yi-Qing Wang (2019)](https://link.springer.com/chapter/10.1007%2F978-3-030-44584-3_36).** (**[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-44584-3_36.pdf)**)
 
 It includes the implementation of the calibrated precision as well as the calibrated f-score (in ``calibrated_metrics.py``), the calibrated average precision (in ``calibrated_metrics.py``) and the calibrated precision-recall gain (in ``prgc.py``). It also includes a notebook (``paper_experiments.ipynb``) that allows to reproduce all the results from the paper.
 
@@ -72,17 +72,10 @@ model rank correlation matrix between the metrics. We also run the same experime
 If you use the code in this repository, please cite :
 
 ```
-@article{siblini2019master,
-  title={Master your Metrics with Calibration},
-  author={Siblini, Wissam and Fr{\'e}ry, Jordan and He-Guelton, Liyun and Obl{\'e}, Fr{\'e}d{\'e}ric and Wang, Yi-Qing},
-  journal={arXiv preprint arXiv:1909.02827},
-  year={2019}
-}
+Siblini W., Fréry J., He-Guelton L., Oblé F., Wang YQ. (2020) Master Your Metrics with Calibration. In: Berthold M., Feelders A., Krempl G. (eds) Advances in Intelligent Data Analysis XVIII. IDA 2020. Lecture Notes in Computer Science, vol 12080. Springer, Cham
 ```
 
 ## References
-
-Siblini, W., Fréry, J., He-Guelton, L., Oblé, F., & Wang, Y. Q. (2019). Master your Metrics with Calibration. arXiv preprint arXiv:1909.02827.
 
 Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Vanderplas, J. (2011). Scikit-learn: Machine learning in Python. Journal of machine learning research, 12(Oct), 2825-2830.
 
