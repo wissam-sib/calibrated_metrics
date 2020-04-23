@@ -1,6 +1,6 @@
 # Calibrated Precision
 
-This repository provides python codes to reproduce the experimental results from paper **["Master your Metrics with Calibration" Wissam Siblini, Jordan Fréry, Liyun He-Guelton, Frédéric Oblé and Yi-Qing Wang (2019)](https://link.springer.com/chapter/10.1007%2F978-3-030-44584-3_36).** (**[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-44584-3_36.pdf)**)
+This repository provides python codes to reproduce the experimental results from paper **["Master your Metrics with Calibration" Wissam Siblini, Jordan Fréry, Liyun He-Guelton, Frédéric Oblé and Yi-Qing Wang (IDA 2020)](https://link.springer.com/chapter/10.1007%2F978-3-030-44584-3_36).** (**[pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-030-44584-3_36.pdf)**)
 
 It includes the implementation of the calibrated precision as well as the calibrated f-score (in ``calibrated_metrics.py``), the calibrated average precision (in ``calibrated_metrics.py``) and the calibrated precision-recall gain (in ``prgc.py``). It also includes a notebook (``paper_experiments.ipynb``) that allows to reproduce all the results from the paper.
 
